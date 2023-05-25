@@ -9,7 +9,7 @@
              <nav class="zone green sticky">
                
                  <h1 class="zone">AWS Application Load Balancer<h1/> 
-                  <p><?php echo "Hello World from:".gethostname(); ?></p> 
+                  <p><?php echo "Hello World from:"shell_exec("curl -s http://169.254.169.254/latest/meta-data/public-ipv4"); ?></p> 
              </nav>
 
               
